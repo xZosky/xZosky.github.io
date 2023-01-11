@@ -6,60 +6,83 @@
 html
 {
     scroll-behavior: smooth;
+    background-color: #272727;
 }
 
 .mainPage
 {
-    position: relative;
-    width: 100%;
+    position: fixed;
+    width: 99%;
     height: 100%;
-    left: -0.2%;
-    background-color: #ebebeb;
+    left: 0.3%;
+    background-color: #1f1f1f;
     border-radius: 10px;
 }
 
 .mainPage img
 {
-    position:relative;
+    position:fixed;
     width: 5%;
     height: 10%;
     top: 15%;
     padding: 30px;
     left: 35%;
     border-radius: 20px;
-    background-color: white;
-    
+    background-color: rgb(22, 22, 22);
+}
+
+.mainPage #ig
+{
+    left: 10%;
+}
+
+.mainPage #twitter
+{
+    left: 32.5%;
+}
+
+.mainPage #twitch
+{
+    left: 55.5%;
+}
+
+.mainPage #discord
+{
+    left: 80%;
 }
 
 .mainPage label
 {
-    position: relative;
-    top: -5%;
+    position: fixed;
     font-size: 18px;
-    background-color: white;
-    left: 20%;
+    background-color: rgb(66, 66, 66);
     padding: 10px;
+    color: white;
     border-radius: 10px;
 }
 
 .mainPage #lblIG
 {
-    left: 2.8%;
+    top: 33%;
+    left: 11.5%;
 }
 
 .mainPage #lblTwitter
 {
-    left: 6.4%;
+    top: 33%;
+    left: 34.5%;
 }
 
 .mainPage #lblTwitch
 {
-    left: 10.6%;
+    top: 33%;
+    left: 58%;
 }
 
 .mainPage #lblDiscord
 {
-    left: 14.8%;
+    top: 33%;
+    left: 82%;
 }
 
 .welcomeBar
@@ -70,6 +93,7 @@ html
     height: 9%;
     top: -0.5%;
     border-radius: 10px;
+    background-color: #333333;
 }
 
 .welcomeBar label
@@ -80,6 +104,7 @@ html
     top: 10%;
     left: 45%;
     text-align: center;
+    color: white;
 }
 
 .welcomeBar > #line2
