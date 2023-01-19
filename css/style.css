@@ -11,20 +11,19 @@ html
 
 .mainPage
 {
-    position: static;
+    position: relative;
     width: 100%;
     height: 100%;
-    left: 0.3%;
     background-color: #1f1f1f;
     border-radius: 10px;
 }
 
 .mainPage img
 {
-    position:sticky;
+    position:relative;
     width: 5%;
     height: 10%;
-    top: 15%;
+    top: 5%;
     padding: 30px;
     left: 35%;
     border-radius: 20px;
@@ -38,22 +37,22 @@ html
 
 .mainPage #twitter
 {
-    left: 32.5%;
+    left: 25%;
 }
 
 .mainPage #twitch
 {
-    left: 55.5%;
+    left: 40%;
 }
 
 .mainPage #discord
 {
-    left: 80%;
+    left: 55%;
 }
 
 .mainPage label
 {
-    position: absolute;
+    position: relative;
     font-size: 18px;
     background-color: rgb(66, 66, 66);
     padding: 10px;
@@ -63,26 +62,26 @@ html
 
 .mainPage #lblIG
 {
-    top: 33%;
-    left: 11.5%;
+    top: 10%;
+    left: -22%;
 }
 
 .mainPage #lblTwitter
 {
-    top: 33%;
-    left: 34.5%;
+    top: 10%;
+    left: -3.5%;
 }
 
 .mainPage #lblTwitch
 {
-    top: 33%;
-    left: 58%;
+    top: 10%;
+    left: 16%;
 }
 
 .mainPage #lblDiscord
 {
-    top: 33%;
-    left: 82%;
+    top: 10%;
+    left: 35%;
 }
 
 .welcomeBar
@@ -97,10 +96,10 @@ html
 
 .welcomeBar label
 {
-    position: sticky;
+    position: relative;
     font-size: 20px;
     padding: 10px;
-    top: 0%;
+    top: 10%;
     left: 45%;
     text-align: center;
     color: white;
@@ -108,7 +107,7 @@ html
 
 .welcomeBar > #line2
 {
-    position: sticky;
-    top: 45%;
-    left: 38%;
+    position: relative;
+    top: 40%;
+    left: 25%;
 }
